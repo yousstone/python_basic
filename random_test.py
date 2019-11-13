@@ -29,8 +29,15 @@ for k in range(1,10**5+1):
 k1 = float(k)
 print('1到10之间，取10万次随机值之和是：%d，平均值是：%f') % (s3,s3/k1)
 
-for g in range(1,10**7+1):
-	p4 = random.choice(range(1,11))
-	s4 += p4
-g1 = float(g)
-print('1到10之间，取1000万次随机值之和是：%d，平均值是：%f') % (s4,s4/g1)
+# for g in range(1,10**7+1):
+# 	p4 = random.choice(range(1,11))
+# 	s4 += p4
+# g1 = float(g)
+# print('1到10之间，取1000万次随机值之和是：%d，平均值是：%f') % (s4,s4/g1)
+
+f = 100 * random.random()
+print("1-100的随机数是: %.2f") % round(f,2)
+print("1-100的随机数是: %2f") % round(f,2)
+# 比较下这两者的区别
+
+
